@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'none';">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DaviSoku</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo-box">
+        <img src="img/logo.png" alt="Logo DaviSoku" />
+        <h1>Davi<span>Soku</span></h1>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#" class="nav-link active" data-page="inicio">Inicio</a></li>
+        <li><a href="#" class="nav-link" data-page="ramen">Ramen</a></li>
+        <li><a href="#" class="nav-link" data-page="market">Market</a></li>
+        <li><a href="#" class="nav-link" data-page="technology">Technology</a></li>
+        <li><a href="#" class="nav-link" data-page="contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section id="inicio" class="page active">
+      <div class="hero">
+        <div class="hero-content">
+          <h2>DaviSoku</h2>
+          <p>Una marca, muchas experiencias.</p>
+
+          <div class="hero-buttons">
+            <a href="#" class="btn page-btn" data-page="market">Ver Market</a>
+            <a href="#" class="btn secondary-btn page-btn" data-page="ramen">Ver Ramen</a>
+          </div>
+        </div>
+      </div>
+
+      <section class="section brands">
+        <h2>Universo DaviSoku</h2>
+        <p class="section-subtitle">Elige un mundo por descubrir.</p>
+
+        <div class="brand-grid">
+
+          <div class="brand-card premium-card ramen-card">
+            <div class="card-content">
+              <span class="tag soon">Próximamente</span>
+              <h3>DaviSoku Ramen</h3>
+              <p>Ramen con carácter, estilo japonés y sabor que enloquece.</p>
+              <a href="#" class="card-btn page-btn" data-page="ramen">Ver más</a>
+            </div>
+          </div>
+
+          <div class="brand-card premium-card market-card">
+            <div class="card-content">
+              <span class="tag available">Disponible</span>
+              <h3>DaviSoku Market</h3>
+              <p>Productos, ofertas y ventas especiales en un solo lugar.</p>
+              <a href="#" class="card-btn page-btn" data-page="market">Ver productos</a>
+            </div>
+          </div>
+
+          <div class="brand-card premium-card tech-card">
+            <div class="card-content">
+              <span class="tag soon">Próximamente</span>
+              <h3>DaviSoku Technology</h3>
+              <p>Soluciones digitales, soporte técnico y tecnología.</p>
+              <a href="#" class="card-btn page-btn" data-page="technology">Ver más</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </section>
+
+    <!-- RAMEN -->
+<section id="ramen" class="page">
+  <section class="coming-page ramen-coming">
+    <div class="coming-overlay">
+      <div class="coming-content">
+        <span class="mini-tag">DaviSoku Ramen</span>
+        <h2>Próximamente</h2>
+        <p>
+          Una experiencia de ramen con estilo japonés moderno,
+          sabor intenso y una identidad diferente.
+        </p>
+
+        <div class="coming-info">
+          <div>
+            <h3>Estilo</h3>
+            <p>Japonés moderno</p>
+          </div>
+
+          <div>
+            <h3>Concepto</h3>
+            <p>Ramen con carácter</p>
+          </div>
+
+          <div>
+            <h3>Slogan</h3>
+            <p>Sabor que enloquece</p>
+          </div>
+        </div>
+
+        <a href="#" class="btn page-btn" data-page="inicio">Volver al inicio</a>
+      </div>
+    </div>
+  </section>
+</section>
+
+    <!-- MARKET -->
+    <section id="market" class="page">
+      <section class="section market-section">
+        <h2>DaviSoku Market</h2>
+        <p>Productos disponibles para la venta.</p>
+        <div id="filtros-container" class="filter-buttons"></div>
+        <div class="search-box">
+        <input type="text" id="buscador-productos" placeholder="Buscar producto..." />
+        </div>
+        <div id="productos-container" class="product-grid"></div>
+
+        <a href="#" class="btn page-btn" data-page="inicio">Volver al inicio</a>
+      </section>
+    </section>
+
+<!-- TECHNOLOGY -->
+<section id="technology" class="page">
+  <section class="coming-page tech-coming">
+    <div class="coming-overlay">
+      <div class="coming-content">
+        <span class="mini-tag">DaviSoku Technology</span>
+        <h2>Próximamente</h2>
+        <p>
+          Un espacio enfocado en soluciones digitales, soporte técnico,
+          desarrollo web y tecnología.
+        </p>
+
+        <div class="coming-info">
+          <div>
+            <h3>Servicios</h3>
+            <p>Soporte técnico</p>
+          </div>
+
+          <div>
+            <h3>Área</h3>
+            <p>Desarrollo web</p>
+          </div>
+
+          <div>
+            <h3>Enfoque</h3>
+            <p>Soluciones digitales</p>
+          </div>
+        </div>
+
+        <a href="#" class="btn page-btn" data-page="inicio">Volver al inicio</a>
+      </div>
+    </div>
+  </section>
+</section>
+    <!-- CONTACTO -->
+<section id="contacto" class="page">
+  <section class="contact-page">
+    <div class="contact-card">
+      <span class="mini-tag">DaviSoku</span>
+      <h2>Contacto</h2>
+      <p>¿Te interesa algún producto o querés más información?</p>
+
+      <div class="contact-info">
+        <div>
+          <h3>WhatsApp</h3>
+          <p>0000-0000</p>
+        </div>
+
+        <div>
+          <h3>Instagram</h3>
+          <p>@davisoku</p>
+        </div>
+
+        <div>
+          <h3>Correo</h3>
+          <p>contacto@davisoku.com</p>
+        </div>
+      </div>
+
+      <a href="https://wa.me/50200000000" target="_blank" class="btn">
+        Escribir por WhatsApp
+      </a>
+
+      <a href="#" class="btn secondary-btn page-btn" data-page="inicio">
+        Volver al inicio
+      </a>
+    </div>
+  </section>
+</section>
+
+  </main>
+
+  <footer>
+    <p>DaviSoku © 2026 - Todos los derechos reservados</p>
+  </footer>
+
+<!-- MODAL DETALLE PRODUCTO -->
+<div id="modal-producto" class="modal">
+  <div class="modal-content">
+    <button id="cerrar-modal" class="modal-close">×</button>
+
+    <div class="modal-gallery">
+      <button id="foto-anterior" class="gallery-arrow">‹</button>
+
+      <img id="modal-img" src="" alt="Producto">
+
+      <button id="foto-siguiente" class="gallery-arrow">›</button>
+
+      <div id="modal-thumbs" class="modal-thumbs"></div>
+    </div>
+
+    <div class="modal-info">
+      <span id="modal-categoria" class="product-category"></span>
+      <h2 id="modal-nombre"></h2>
+      <p id="modal-descripcion"></p>
+
+      <div class="modal-details">
+        <span id="modal-estado"></span>
+        <strong id="modal-precio"></strong>
+      </div>
+
+      <a id="modal-contacto" href="#" target="_blank" class="contact-btn">
+        Consultar por WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+  <script src="data/productos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
