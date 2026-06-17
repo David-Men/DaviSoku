@@ -1668,4 +1668,72 @@ body {
   background:
     linear-gradient(90deg, rgba(0,0,0,0.88), rgba(0,0,0,0.65), rgba(0,0,0,0.88)),
     radial-gradient(circle at center, rgba(193,18,31,0.18), transparent 45%);
+}/* ===== RESPONSIVE MÓVIL DAVISOKU ===== */
+
+@media (max-width: 768px) {
+
+  .header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 18px;
+  }
+
+  .logo-box {
+    justify-content: center;
+  }
+
+  .logo-box img {
+    width: 58px !important;
+    height: 58px !important;
+  }
+
+  .logo-box h1 {
+    font-size: 28px;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .hero {
+    min-height: calc(100vh - 125px);
+    padding: 40px 18px;
+    background-position: center;
+  }
+
+  .hero h2 {
+    font-size: 58px;
+    line-height: 1;
+  }
+
+  .hero p {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .hero-buttons .btn {
+    width: 220px;
+    text-align: center;
+  }
+
 }
