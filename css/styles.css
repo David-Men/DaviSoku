@@ -1745,3 +1745,33 @@ body {
 .logo-box:hover h1 {
   text-shadow: 0 0 18px rgba(193,18,31,0.65);
 }
+/* ===== BOTÓN FLOTANTE WHATSAPP ===== */
+
+.whatsapp-float {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 9998;
+  background: #25d366;
+  color: white;
+  padding: 15px 22px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 25px rgba(37, 211, 102, 0.65);
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 0 35px rgba(37, 211, 102, 0.9);
+}
+
+@media (max-width: 700px) {
+  .whatsapp-float {
+    right: 18px;
+    bottom: 18px;
+    padding: 13px 18px;
+    font-size: 14px;
+  }
+}
