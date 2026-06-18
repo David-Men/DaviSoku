@@ -59,7 +59,7 @@ body {
   min-height: calc(100vh - 85px);
   background:
     linear-gradient(90deg, rgba(0,0,0,0.68), rgba(0,0,0,0.35), rgba(0,0,0,0.68)),
-    url("../img/hero-ramen.png");
+    url("../img/logo.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -493,8 +493,8 @@ body {
 .hero {
   min-height: calc(100vh - 85px);
   background:
-    linear-gradient(90deg, rgba(0,0,0,0.92), rgba(0,0,0,0.65), rgba(0,0,0,0.92)),
-    url("../img/hero-ramen.png");
+    linear-gradient(90deg, rgba(0,0,0,0.60), rgba(0,0,0,0.30), rgba(0,0,0,0.60)),
+    url("../img/fondoInicio.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1736,4 +1736,12 @@ body {
     text-align: center;
   }
 
+}
+.logo-box {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo-box:hover h1 {
+  text-shadow: 0 0 18px rgba(193,18,31,0.65);
 }
